@@ -42,5 +42,5 @@
 			return SN;
 		}
 	};
-	return new SN();
+	return SN;
 })(window,undefined)
