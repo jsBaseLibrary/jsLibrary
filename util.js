@@ -20,7 +20,7 @@
 		 * 而且也返回匹配name属性的元素
 		 * @return {[type]} [description]
 		 */
-		getElements : function(/*ids*/){
+		getElements : (/*ids*/)=>{
 			var elements = {};
 			    for(var i = 0,j= arguments.length;i<j;i++){
 			        var id = arguments[i];
@@ -35,7 +35,7 @@
 		 * @param  {[boolean]} deep [默认为true]
 		 * @return {[type]}      [description]
 		 */
-		noConflict : function(deep){
+		noConflict : (deep)=>{
 			var deep = deep?deep:'true';
 			if(deep)
 				window.SN = _SN;
