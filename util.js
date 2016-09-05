@@ -9,8 +9,10 @@
 	var window = this,
 		undefined,
 		_SN = window.SN,
-		SN = window.SN = function(){
-		this.version = '0.0.1';
+		SN = window.SN = class{
+			constructor(){
+			    this.version = '0.0.1';
+		}
 	};
 	Object.assign(SN.prototype,{
 		constructor : SN,
